@@ -97,3 +97,23 @@ TermSocket.open: Opened 2
 TermSocket.open: 1
 not able to serialize: expected string or bytes-like object
 TermSocket.open: Opened 1
+[W 22:55:06.904 NotebookApp] WebSocket ping timeout after 119650 ms.
+[W 22:55:06.917 NotebookApp] WebSocket ping timeout after 119663 ms.
+[W 22:55:06.923 NotebookApp] WebSocket ping timeout after 119669 ms.
+[I 22:55:11.925 NotebookApp] Starting buffering for b95a87d2-babd-42d8-b212-6a7950477e68:d26401a1-b0a7-4c21-b542-531066c3268a
+[W 22:55:12.556 NotebookApp] WebSocket ping timeout after 119667 ms.
+Websocket closed
+[I 22:56:54.718 NotebookApp] Saving file at /my_first_notebook.ipynb
+[I 22:57:03.293 NotebookApp] Saving file at /requirements.txt
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
+[I 22:58:42.691 NotebookApp] Saving file at /my_first_notebook.ipynb
+[I 22:58:56.157 NotebookApp] Saving file at /my_first_notebook.ipynb
+[I 22:58:56.926 NotebookApp] Saving file at /README.md
+[I 22:58:56.929 NotebookApp] Saving file at /requirements.txt
+[I 22:58:56.937 NotebookApp] Saving file at /pokeman_data.csv
+[I 22:59:01.378 NotebookApp] Saving file at /my_first_notebook.ipynb
+[I 22:59:03.420 NotebookApp] Saving file at /my_first_notebook.ipynb
+[I 22:59:19.509 NotebookApp] Saving file at /my_first_notebook.ipynb
+[I 22:59:22.951 NotebookApp] Saving file at /my_first_notebook.ipynb
