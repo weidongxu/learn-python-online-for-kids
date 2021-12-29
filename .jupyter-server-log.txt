@@ -34,3 +34,5 @@ not able to serialize: expected string or bytes-like object
 TermSocket.open: Opened 1
 [I 04:10:53.782 NotebookApp] Creating new file in 
 [I 04:11:29.274 NotebookApp] Saving file at /requirements.txt
+[I 04:22:40.567 NotebookApp] Creating new file in 
+[I 04:24:36.395 NotebookApp] Saving file at /README.md
