@@ -162,3 +162,65 @@ TermSocket.open: Opened 1
 TermSocket.open: 1
 not able to serialize: expected string or bytes-like object
 TermSocket.open: Opened 1
+[W 2021-12-29 23:47:32.635 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-29 23:47:32.636 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-29 23:47:32.636 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-29 23:47:32.636 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-29 23:47:32.636 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-29 23:47:32.636 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-29 23:47:32.636 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-29 23:47:32.636 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-12-29 23:47:32.636 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-12-29 23:47:32.636 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-29 23:47:32.636 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-12-29 23:47:32.636 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-12-29 23:47:32.645 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2021-12-29 23:47:32.645 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 23:47:32.656 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 23:47:32.658 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 23:47:32.659 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 23:47:32.659 NotebookApp] Jupyter Notebook 6.3.0 is running at:
+[I 23:47:32.659 NotebookApp] http://jupyter-weidongxu-2dlearn-2donline-2dfor-2dkids-2d3xmbwefv:8888/user/weidongxu-learn-online-for-kids-3xmbwefv/?token=...
+[I 23:47:32.659 NotebookApp]  or http://127.0.0.1:8888/user/weidongxu-learn-online-for-kids-3xmbwefv/?token=...
+[I 23:47:32.659 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 23:47:32.665 NotebookApp] No web browser found: could not locate runnable browser.
+[I 23:47:34.449 NotebookApp] 302 GET /user/weidongxu-learn-online-for-kids-3xmbwefv/ (10.2.0.175) 1.870000ms
+[I 23:47:35.025 NotebookApp] 302 GET /user/weidongxu-learn-online-for-kids-3xmbwefv/?token=fBjHDnS5TWGXIDQfBlxMIg (101.175.201.186) 1.400000ms
+[I 23:47:35.417 NotebookApp] 301 GET /user/weidongxu-learn-online-for-kids-3xmbwefv/lab/?token=fBjHDnS5TWGXIDQfBlxMIg (101.175.201.186) 2.410000ms
+[I 23:47:48.394 NotebookApp] 301 GET /user/weidongxu-learn-online-for-kids-3xmbwefv/static/favicons/favicon.ico (101.175.201.186) 0.900000ms
+[I 2021-12-29 23:47:52.035 LabApp] Build is up to date
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[W 23:47:53.989 NotebookApp] 404 GET /user/weidongxu-learn-online-for-kids-3xmbwefv/terminals/websocket/1 (101.175.201.186) 48.260000ms referer=None
+[W 23:47:54.121 NotebookApp] Notebook my_first_notebook.ipynb is not trusted
+[W 23:47:54.136 NotebookApp] Notebook kid_first_notebook.ipynb is not trusted
+Exception in callback <TaskStepMethWrapper object at 0x7f9673f68050>()
+handle: <Handle <TaskStepMethWrapper object at 0x7f9673f68050>()>
+Traceback (most recent call last):
+  File "/srv/conda/envs/notebook/lib/python3.7/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+RuntimeError: Cannot enter into task <Task pending coro=<MappingKernelManager.start_kernel() running at /srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py:158> cb=[IOLoop.add_future.<locals>.<lambda>() at /srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/ioloop.py:688]> while another task <Task pending coro=<MappingKernelManager.start_kernel() running at /srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py:176> cb=[IOLoop.add_future.<locals>.<lambda>() at /srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/ioloop.py:688]> is being executed.
+Task was destroyed but it is pending!
+task: <Task pending coro=<RequestHandler._execute() done, defined at /srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/web.py:1660> wait_for=<Future pending cb=[coroutine.<locals>.wrapper.<locals>.<lambda>() at /srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/gen.py:251, <TaskWakeupMethWrapper object at 0x7f9673f68310>()]> cb=[_HandlerDelegate.execute.<locals>.<lambda>() at /srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/web.py:2326]>
+/srv/conda/envs/notebook/lib/python3.7/site-packages/traitlets/traitlets.py:234: RuntimeWarning: coroutine 'MappingKernelManager.start_kernel' was never awaited
+  results.append((key, value))
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+Task was destroyed but it is pending!
+task: <Task pending coro=<MappingKernelManager.start_kernel() running at /srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py:158> cb=[IOLoop.add_future.<locals>.<lambda>() at /srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/ioloop.py:688]>
+[I 23:47:56.085 NotebookApp] Kernel started: 70e00436-f170-4fad-9f99-49f8bf09ab12, name: python3
+[I 23:47:56.085 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 23:47:56.086 NotebookApp] Culling kernels even with connected clients
+/srv/conda/envs/notebook/lib/python3.7/json/encoder.py:257: UserWarning: date_default is deprecated since jupyter_client 7.0.0. Use jupyter_client.jsonutil.json_default.
+  return _iterencode(o, 0)
+[I 23:47:58.444 NotebookApp] Starting buffering for 70e00436-f170-4fad-9f99-49f8bf09ab12:a5ee6971-5340-4dd5-9fd3-8aca6c2f5f55
+[I 23:47:59.672 NotebookApp] 301 GET /user/weidongxu-learn-online-for-kids-3xmbwefv/static/favicons/favicon-busy-1.ico (101.175.201.186) 0.800000ms
+[I 23:48:58.848 NotebookApp] Kernel started: 13d3cb30-7f09-4a25-ad15-9d7036c3fb94, name: python3
+[I 23:49:55.605 NotebookApp] Saving file at /kid_first_notebook.ipynb
+[I 23:51:56.966 NotebookApp] Saving file at /kid_first_notebook.ipynb
+[I 23:53:57.745 NotebookApp] Saving file at /kid_first_notebook.ipynb
+[I 23:55:58.448 NotebookApp] Saving file at /kid_first_notebook.ipynb
+[I 23:56:49.643 NotebookApp] Saving file at /kid_first_notebook.ipynb
+[I 23:56:58.065 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+not able to serialize: expected string or bytes-like object
+TermSocket.open: Opened 1
